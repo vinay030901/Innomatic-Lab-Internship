@@ -1,0 +1,11 @@
+t=int(input())
+for i in range(t):
+    num=int(input())
+    n_set=set(map(int,input().split()))
+    numb=int(input())
+    n_set2=set(map(int,input().split()))
+    n_set3=n_set
+    if n_set3 == n_set.intersection(n_set2):
+        print("True")
+    else:
+        print("False")
